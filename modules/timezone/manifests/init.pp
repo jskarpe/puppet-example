@@ -6,7 +6,7 @@
 #   Jon Skarpeteig <jon.skarpeteig@gmail.com>
 #
 class timezone {
-    package { "tzdata":
+    package { 'tzdata':
         ensure => installed
     }
 }
