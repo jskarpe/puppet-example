@@ -3,3 +3,4 @@ fixtures:
     stdlib: git://github.com/puppetlabs/puppetlabs-stdlib.git
   symlinks:
     agent: "#{source_dir}"
+    timezone: "#{source_dir}/../timezone"
